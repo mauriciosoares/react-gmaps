@@ -1,5 +1,5 @@
 var appDispatcher = require('../dispatcher/AppDispatcher');
-var TodoConstants = requre('../constants/TodoConstants');
+var TodoConstants = require('../constants/TodoConstants');
 
 var TodoActions = {
   create: function(text) {

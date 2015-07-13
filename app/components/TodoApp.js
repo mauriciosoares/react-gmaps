@@ -1,1 +1,2 @@
-module.exports = true;
+var Footer = require('./Footer');
+

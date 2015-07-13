@@ -1,0 +1,32 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify app/index.js > public/js/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mauriciosoares/react-todo.git"
+  },
+  "author": "Mauricio Soares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mauriciosoares/react-todo/issues"
+  },
+  "homepage": "https://github.com/mauriciosoares/react-todo",
+  "devDependencies": {
+    "browserify": "^10.2.6",
+    "flux": "^2.0.3",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "keymirror": "^0.1.1",
+    "object-assign": "^3.0.0",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.3"
+  }
+}

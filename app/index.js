@@ -1,2 +1,5 @@
 var React = require('react');
-var Flux = require('flux');
+
+var TodoApp = require('./components/TodoApp');
+
+React.render(<TodoApp />, document.body);

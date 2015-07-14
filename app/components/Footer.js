@@ -59,3 +59,5 @@ var Footer = React.createClass({
     TodoActions.destroyCompleted();
   }
 });
+
+module.exports = Footer;

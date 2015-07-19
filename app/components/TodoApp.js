@@ -7,7 +7,7 @@ var TodoStore = require('../stores/TodoStore');
 function getTodoState() {
   return {
     allTodos: TodoStore.getAll(),
-    areAllComplete: TodoStore.areAllComplete()
+    areAllComplete: TodoStore.areAllcomplete()
   };
 }
 
@@ -37,7 +37,7 @@ var TodoApp = React.createClass({
   },
 
   _onChange: function() {
-    this.setState(getTodosState());
+    this.setState(getTodoState());
   }
 });
 

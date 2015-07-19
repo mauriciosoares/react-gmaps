@@ -79,7 +79,7 @@ AppDispatcher.register(function(action) {
       break;
 
     case TodoConstants.TODO_TOGGLE_COMPLETE_ALL:
-      if(TodoStore.areAllComplete()) {
+      if(TodoStore.areAllcomplete()) {
         updateAll({complete: false});
       } else {
         updateAll({complete: true});

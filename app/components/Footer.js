@@ -35,7 +35,7 @@ var Footer = React.createClass({
     return (
       <footer>
         <span id="todo-count">
-          <strong>{itemsLeft}</strong> itemsLeftPhrase
+          <strong>{itemsLeft}</strong> {itemsLeftPhrase}
         </span>
         {clearCompletedButton}
       </footer>

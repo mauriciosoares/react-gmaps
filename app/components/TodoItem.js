@@ -60,7 +60,7 @@ var TodoItem = React.createClass({
 
   _onDoubleClick: function() {
     this.setState({
-      idEditing: true
+      isEditing: true
     });
   },
 
